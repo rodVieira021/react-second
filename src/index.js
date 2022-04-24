@@ -1,4 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Navigation from './Navigation';
+import SectionOne from './SectionOne';
+import Footer from './Footer';
+import './global.css'
+import './style.css'
 
-ReactDOM.render(<h1>Hello, REACT</h1>, document.getElementById('root'));
+function App() {
+    return (
+        <div>
+            <Navigation />
+            <SectionOne />
+            <Footer />
+        </div>
+    )
+}
+
+
+
+ReactDOM.render(<App />,document.getElementById('root'));

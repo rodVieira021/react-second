@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+
+.flex {
+    display: flex;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+.s-b {
+ justify-content: space-between;   
+}
+
+.a-i-c {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.col-02 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-03 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
